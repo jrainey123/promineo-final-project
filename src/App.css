@@ -1,38 +1,146 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.main{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    background-color: white;
+    color:black;
+    /* flex-direction: column;   */
+    padding: 10px;
+    border-top-style:solid;
+    border-top-color: black;
+    border-bottom-style:solid;
+    border-bottom-color: black;
+    width: 70%;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .main-table{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    background-color: white;
+    color:black;
+    /* flex-direction: column;   */
+    padding: 10px;
+    border-top-style:solid;
+    border-top-color: black;
+    border-bottom-style:solid;
+    border-bottom-color: black;
+    max-width: 1000px;
+    margin: 0 auto;
   }
-  to {
-    transform: rotate(360deg);
+  
+  body{
+    background-color: rgb(88, 153, 116);
+    font-family: "Marcellus";
   }
-}
+    
+  .heading{
+    background-color: rgb(88, 153, 116);
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .footerText{
+    color:black;
+  }
+  
+  h1{
+    color:black;
+  }
+  
+  h3{
+    color:black;
+  }
+  
+  h2{
+    text-align: center;
+  }
+  
+  .navbar{
+    border-top-style:solid;
+    border-bottom-style: solid;
+    border-color:black;
+    padding: 5px 10px;
+    margin: 20px auto;
+    width: 100%;
+    background-color: black;
+  }
+  
+  .link{
+    color:whitesmoke;
+  }
+ 
+  .link:hover {
+    color:green;
+  }
+
+  #drop-item{
+    background-color: darkgray;
+  }
+  
+  .create-form{
+    width: 100%;
+  }
+  
+  .create-form label{
+    color: black !important;
+    font-size: 12px !important;
+  }
+
+  .slide-width{
+     width: 400px;
+     margin:auto;
+  }
+  
+  .cardBox {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    cursor:pointer;
+ }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin:auto;
+    justify-content: space-evenly;
+  }
+
+  .cardImg {
+    max-height: 200px;
+    min-height: 200px;
+    border-radius:  .65rem;
+  }
+
+  .btn-link{
+    background-color: rgb(88, 153, 116);
+    border-radius: 10px;
+    /* align-items: center; */
+    margin:auto;
+    justify-content: center;
+    display:flex;
+
+  }
+
+  .card {
+    /* border-radius: 2rem; */
+    border-style: solid;
+    border-color: black;
+    border-width: 2pt;
+    padding-top: 2px;
+    background-color: whitesmoke;
+    padding-bottom: 2px;
+    width: 300px;
+    /* margin: 2rem 1rem; */
+    margin: 10px;
+   }
+
+  .card-text{
+    font-size: 10pt;
+  } 
+
+ 
