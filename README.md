@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# PromineoTech Front End Software Devleopment Final Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**React version 18.2**
 
-## Available Scripts
+**React-Router version 6.10**
 
-In the project directory, you can run:
+**MockAPI**
 
-### `npm start`
+## Project Requirements
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [x] Use an online API of your choice (or if no API can be found, use an array for in-memory storage)
+- [x] Create a React project of your choice
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Project must meet the following criteria:
 
-### `npm test`
+- [x] Use React Router and have at least 3 pages using React Bootstrap or an alternative styling library
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+        1. App.js
+        2. create.js
+        3. update.js
+        Extra
+        4. read.js
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [x] Contain at least 10 components
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+       1. Form
+       2. Table
+       3. Button
+       4. Container
+       5. Header
+       6. Navbar
+       7. Footer
+       8. Carousel
+       9. Create.js
+      10. Update.js
+      Extra
+      11. Read.js
+      12. Card
+      13. Dropdown 
+      14. Popover  
+      15. Nav
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [x] Allow for all CRUD operations
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+      1. Create - create.js
+      2. Read - read.js
+      3. Update - update.js
+      4. Delete - update.js
+"# promineo-final-project" 
